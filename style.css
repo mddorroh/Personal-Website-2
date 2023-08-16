@@ -40,3 +40,34 @@ body{
 a:link {color:gray}
 a:active {color:black}
 a:hover {color:black}
+.two-column {
+    display: flex;
+    column-gap: 40px;
+}
+.two-column > div:first-child {
+    background-color: lightgrey;
+    color: gray;
+    flex: 3;
+    padding: 15px;
+}
+.two-column > div:last-child {
+    background-color: lightgrey;
+    color: gray;
+    flex: 1;
+    padding: 15px;
+}
+h1{
+    color: gray;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.AZ{
+    width: auto;
+    height:auto;
+    padding: 5px;
+}
+.dog{
+    width: auto;
+    height:auto;
+    padding: 5px;
+}
