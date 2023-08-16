@@ -13,7 +13,7 @@ body{
     margin: auto;
     margin-top: 5%;
     color: gray;
-    font-family: 'American Typrewriter';
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .headshot-img{
     border-radius: 10%; 
@@ -32,3 +32,11 @@ body{
 .box p{
     text-align:center;
 }
+.menu{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+a:link {color:gray}
+a:active {color:black}
+a:hover {color:black}
