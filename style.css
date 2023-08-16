@@ -71,3 +71,39 @@ h1{
     height:auto;
     padding: 5px;
 }
+.more-columns {
+    display: flex;
+    column-gap: 40px;
+}
+.more-columns > div:first-child {
+    background-color: lightgrey;
+    color: gray;
+    flex: 3;
+    padding: 15px;
+}
+.more-columns > div:last-child {
+    background-color: lightgrey;
+    color: gray;
+    flex: 1;
+    padding: 15px;
+}
+h1{
+    color: gray;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.pic-1{
+    width: auto;
+    height:auto;
+    padding: 5px;
+}
+.pic-2{
+    width: auto;
+    height:auto;
+    padding: 5px;
+}
+.flexForm{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
